@@ -55,7 +55,7 @@ class Day_Trade:
                 bond_update['Date'] = datetime.today().strftime("%H:%M:%S")
                 self.bond = pd.concat([self.bond, bond_update])
                 self.clean()
-            except KeyboardInterrupt:
+            except Exception:
                 check = False
                 self.clean()
                 print('Stopped')
