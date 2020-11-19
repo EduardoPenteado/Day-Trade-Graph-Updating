@@ -8,7 +8,7 @@ The stocks will be updated until you interreput the kernel, which is represented
 This code is recommended to be used in a graphical interface, like as jupyter notebook.
 
 Some instructions.
-1. The code will ask for a stock to be analyze, insert that (only Brazillians stocks in the moment, like MGLU3)
+1. The code will ask for a stock to be analised, insert that (only Brazillians stocks in the moment, like MGLU3)
 2. The code will ask the period of time you want to update the Data.
 3. The program is function perfectly.
 4. When you interrupt the kernel, you will be asked if you want to save the Data in an excel file.
